@@ -96,6 +96,7 @@ function handlerCallBackForm(event) {
     mobileTemplates.disabled = false;
   } else {
     mobileTemplates.disabled = true;
+    mobileTemplates.checked = false;
   }
 }
 
